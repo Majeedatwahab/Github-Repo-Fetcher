@@ -1,6 +1,9 @@
 ALTSCHOOL SECOND SEMESTER EXAM..............
+
 TASK
-Implement a Web App using GitHub API to fetch your GitHub repositories portfolio
+
+Implement a Web App using GitHub API to fetch your GitHub repositories portfolio.
+
 
 1. Show a page listing all your repositories on GitHub with pagination enabled. Bonus: Implement Search and Filter. 
 2. Create another page showing data for a single repo when clicked from the page. Show all repos using nested routes while using all the necessary tools in React. 
