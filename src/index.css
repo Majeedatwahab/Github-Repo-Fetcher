@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white ;
+  color: white;
+  letter-spacing: 0.02rem;
+  min-height: 100vh;
+  font-size: 0.9rem;
+
+}
+
+section {
+  padding: 20px 0;
+}
+
+.repo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+
+.repo-card,
+.repodetail-card {
+  border: 1px solid black;
+  padding: 13px;
+  border-radius: 5px;
+  background-color: #9F7AEA ;
+}
+
+.repo-card {
+  border: 1px solid black;
+  padding: 13px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.repo-name {
+  color: black;
+  font-size: 2rem;
+  text-decoration: double;
+  word-break: break-all;
+}
+.link{
+          color: black;
+          background: #B2F5EA;
+          padding: 5px;
+          border: none;
+          border-radius: 5px;
+          text-decoration: none;
+          margin-top: 20px;
+          display: inline-block;
+          text-align: center;
+}
+
+.icons {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .repo-container {
+    grid-template-columns: 1fr;
+  }
+
+ .repo-card{
+  padding: 10px;
+  width: 100%;
+ }
+}
+
+@media (max-width: 576px) {
+  .repo-card {
+    padding: 8px;
+  }
+}
